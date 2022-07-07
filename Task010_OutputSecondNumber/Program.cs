@@ -5,7 +5,7 @@
 Console.WriteLine("Введите трехзначное число ");
 int threeDigitNumber = Convert.ToInt32(Console.ReadLine());
 
-if(threeDigitNumber > 99 && threeDigitNumber < 1000)
+if (threeDigitNumber > 99 && threeDigitNumber < 1000)
 {
     int result = threeDigitNumber / 10 % 10;
     Console.WriteLine($"{threeDigitNumber} -> {result} - вторая цифра этого числа");
