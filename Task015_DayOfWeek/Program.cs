@@ -11,7 +11,11 @@ if (a == 6 || a == 7)
 {
     Console.WriteLine($"{a} - этот день выходной");
 }
-else
+else if (a < 1 || a > 7)
+{
+    Console.WriteLine("Вы ввели некорректное число!");
+}
+else 
 {
     Console.WriteLine($"{a} - это рабочий день");
 }
